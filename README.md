@@ -14,4 +14,12 @@ This will start the config utility. Select 'Advanced Options', then select 'GL D
 To install:
 Click on install.sh in repository folder
 Or
-sudo 1-12RPI/install.sh
+sudo chmod +x 12-1RPI/install.sh && sudo 12-1RPI/install.sh
+-----------------------------------------------------------------------------------
+Testing
+Unlike the last failed minecraft install I made, I have a proper way to test this one.
+Also unlike the last one,the tutorial is much more reliable for simple installers
+To sum it up, its easier to make life easy
+-----------------------------------------------------------------------------------
+Its just better
+I even included an automatic troubleshooting program, to fix any possible problems!

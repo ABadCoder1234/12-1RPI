@@ -1,11 +1,12 @@
 #!/bin/bash
 clear
 cd
-figlet Minecraft Pro || clear && echo Figlet not detected && echo Download figlet? [y,n] && read -rsn1 input
+figlet Minecraft Pro || clear || echo Figlet not detected || echo Download figlet? [y,n] || read -rsn1 input
 if [ "$input" == "y" ]; then
 sudo apt-get -y install figlet
 OpenMinecraft
 else
+clear
 echo 1. Launch
 echo 2. Launch Options -Debug-
 echo 3. Advanced Settings -Login-

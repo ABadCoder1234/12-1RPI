@@ -24,3 +24,6 @@ To sum it up, its easier to make life easy
 -----------------------------------------------------------------------------------
 Its just better
 I even included an automatic troubleshooting program, to fix any possible problems!
+-----------------------------------------------------------------------------------
+I am not posting versions until this is so perfect, there aren't even grammer mistakes.
+And I'm pretty close to that.

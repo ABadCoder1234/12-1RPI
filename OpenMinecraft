@@ -12,6 +12,7 @@ sudo apt-get -y install figlet
 OpenMinecraft
 fi
 fi
+figlet Minecraft Pro
 clear
 echo 1. Launch
 echo 2. Launch Options -Debug-

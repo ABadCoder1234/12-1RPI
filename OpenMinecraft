@@ -6,6 +6,8 @@ echo 1. Launch
 echo 2. Launch Options -Debug-
 echo 3. Advanced Settings -Login-
 echo 4. Credits
+echo 5. Installation troubleshoot
+echo 6. Update Launcher
 read -rsn1 input
 if [ "$input" == "1" ]; then
 echo Opening Minecraft
@@ -46,5 +48,17 @@ echo Minecraft By Mojang
 echo Run Script by Paul Lamb
 echo www.paulscode.com
 echo Launcher By Sam Smith
+fi
+if [ "$input" == "5" ]; then
+cd
+12-1/troubleshoot.sh || Failed, did you delete the 12-1 folder?
+fi
+if [ "$input" == "6" ]; then
+cd
+sudo rm -rf 12-1RPI
+git clone https:/github.com/ABadCoder1234/12-1RPI
+sudo mv 12-1/OpenMinecraft /usr/bin/OpenMineraft
+sudo chmod +x /usr/bin/OpenMinecraft
+echo Finished
 fi
 # Hey gamer

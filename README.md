@@ -24,6 +24,47 @@ To sum it up, its easier to make life easy
 -----------------------------------------------------------------------------------
 Its just better
 I even included an automatic troubleshooting program, to fix any possible problems!
------------------------------------------------------------------------------------
+Edit: I noticed there was a problem with the automatic script, so currently it is just an assistant
+-------------------------------------------------------------To sum it up, its easier to make life easy
+24
+-To sum it up, its easier to make life easy
+24
+---------------------
 I am not posting versions until this is so perfect, there aren't even grammer mistakes.
 And I'm pretty close to that.
+-----------------------------------------------------------------------------------
+Low Frames? No Problems!
+I have released an overclock tool (ABadCoder1234/.overclocksimple) to overclock your pi 4's processor and vram! You will need cooling but you will easily get higher frames
+-----------------------------------------------------------------------------------
+Simple is better
+This is extremely simple, and requires little to no technical know how
+-----------------------------------------------------------------------------------
+More reliable
+Less dumb errors, and less breakable script.
+-----------------------------------------------------------------------------------
+My End
+I have had much more experience with linux now. The last ones structure worked, but was incredibly inconvenient. Now I have all the code in one program, rather than being spread out, making it easier to modify the code
+-----------------------------------------------------------------------------------
+Modification
+This is coded in simple bash, so it is nice and easy to modify it.
+-----------------------------------------------------------------------------------
+RPI Requirements:
+------------------
+Raspberry Pi 3:
+Required:
+Enabled GL Driver
+64mb GPU Memory
+--------
+Recommended:
+Fan
+Heatsinks
+Overclock (Using my program is not recommended for Pi 3)
+------------------
+Raspberry Pi 4
+Required:
+Cannot be underclocked
+--------
+Recommended:
+Fan
+Heatsinks
+Overclock (See my repository: .overclocksimple)

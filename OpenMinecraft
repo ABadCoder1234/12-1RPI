@@ -1,7 +1,11 @@
 #!/bin/bash
 clear
 cd
-figlet Minecraft Pro || clear && echo "Minecraft Pro Launcher (Download figlet with sudo apt-get install figlet for a better title)"
+figlet Minecraft Pro || clear && echo Figlet not detected && echo Download figlet? [y,n] && read -rsn1 input
+if [ "$input" == "y" ]; then
+sudo apt-get -y install figlet
+OpenMinecraft
+else
 echo 1. Launch
 echo 2. Launch Options -Debug-
 echo 3. Advanced Settings -Login-
@@ -61,5 +65,6 @@ sudo chmod +x 12-1RPI/OpenMinecraft
 sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
 sudo chmod +x /usr/bin/OpenMinecraft
 echo Finished
+fi
 fi
 # Hey gamer

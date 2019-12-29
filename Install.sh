@@ -38,13 +38,15 @@ cd ~/Minecraft && /opt/jdk/jdk1.8.0_211/bin/java -jar OptiFine_1.12.2_HD_U_F4.ja
 echo "Frames succesfully raised"
 echo "The launcher will pop up again, make sure you have the profile 'Optifine' selected, then click play"
 echo "Now, a big script will pop up. Correctly fill in your information. For special characters use quotations"
-echo "Press any key to continue on to the final step"
+echo "Press any key to continue on to the final labor involved step"
 read -rsn1 input
 cd
 cd Minecraft
 sudo nano runMC1_12_2_OptifineF4.sh
 echo "Now installing the Minecraft Pro launcher"
 echo "This will take a second"
+echo "Press any key to continue"
+read -rsn1 input
 echo "Beginning in"
 echo "3"
 sleep 1
@@ -53,7 +55,9 @@ sleep 1
 echo "1"
 sleep 1
 cd
-mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
+sudo chmod +x 12-1RPI/OpenMinecraft
+sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
+sudo chmod +x /usr/bin/OpenMinecraft
 echo Done
 sleep 1
 echo Run command OpenMinecraft to play the wonderful game pro gamers know as, Minecraft

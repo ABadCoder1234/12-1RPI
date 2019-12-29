@@ -56,8 +56,9 @@ fi
 if [ "$input" == "6" ]; then
 cd
 sudo rm -rf 12-1RPI
-git clone https:/github.com/ABadCoder1234/12-1RPI
-sudo mv 12-1/OpenMinecraft /usr/bin/OpenMineraft
+git clone https://github.com/ABadCoder1234/12-1RPI
+sudo chmod +x 12-1RPI/OpenMinecraft
+sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMineraft
 sudo chmod +x /usr/bin/OpenMinecraft
 echo Finished
 fi

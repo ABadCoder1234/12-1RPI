@@ -12,14 +12,15 @@ sudo apt-get -y install figlet
 OpenMinecraft
 fi
 fi
-figlet Minecraft Pro
 clear
+figlet Minecraft Pro
 echo 1. Launch
 echo 2. Launch Options -Debug-
 echo 3. Advanced Settings -Login-
 echo 4. Credits
 echo 5. Installation troubleshoot
 echo 6. Update Launcher
+echo "(C)lose"
 read -rsn1 input
 if [ "$input" == "1" ]; then
 echo Opening Minecraft
@@ -75,3 +76,7 @@ sudo chmod +x /usr/bin/OpenMinecraft
 echo Finished
 fi
 # Hey gamer
+if [ "$input" == "c" ]; then
+clear
+echo  
+fi

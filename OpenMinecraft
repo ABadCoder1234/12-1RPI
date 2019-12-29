@@ -28,12 +28,16 @@ echo Keep settings all the way down!
 echo Keep window default size for best performance!
 sleep 2
 cd Minecraft && ./runMC1_12_2_OptifineF4.sh
+OpenMinecraft
 fi
 if [ "$input" == "2" ]; then
-java -jar Minecraft/Minecraft.jar
+cd
+cd ~/Minecraft && /opt/jdk/jdk1.8.0_211/bin/java -jar Minecraft.jar
+OpenMinecraft
 fi
 if [ "$input" == "3" ]; then
 sudo nano Minecraft/runMC1_12_2_OptifineF4.sh
+OpenMinecraft
 fi
 if [ "$input" == "s" ]; then
 echo You best not ruin it!
@@ -61,6 +65,8 @@ echo Minecraft By Mojang
 echo Run Script by Paul Lamb
 echo www.paulscode.com
 echo Launcher By Sam Smith
+read -rsn1 input
+OpenMinecraft
 fi
 if [ "$input" == "5" ]; then
 cd
@@ -79,4 +85,5 @@ fi
 if [ "$input" == "c" ]; then
 clear
 echo  
+clear
 fi

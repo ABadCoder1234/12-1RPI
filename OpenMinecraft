@@ -11,6 +11,7 @@ if [ "$input" == "y" ]; then
 sudo apt-get -y install figlet
 OpenMinecraft
 else
+fi
 clear
 echo 1. Launch
 echo 2. Launch Options -Debug-
@@ -71,7 +72,6 @@ sudo chmod +x 12-1RPI/OpenMinecraft
 sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
 sudo chmod +x /usr/bin/OpenMinecraft
 echo Finished
-fi
 fi
 fi
 # Hey gamer

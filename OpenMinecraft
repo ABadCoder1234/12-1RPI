@@ -1,0 +1,50 @@
+#!/bin/bash
+clear
+cd
+figlet Minecraft Pro
+echo 1. Launch
+echo 2. Launch Options -Debug-
+echo 3. Advanced Settings -Login-
+echo 4. Credits
+read -rsn1 input
+if [ "$input" == "1" ]; then
+echo Opening Minecraft
+echo Keep settings all the way down!
+echo Keep window default size for best performance!
+sleep 2
+cd Minecraft && ./runMC1_12_2_OptifineF4.sh
+fi
+if [ "$input" == "2" ]; then
+java -jar Minecraft/Minecraft.jar
+fi
+if [ "$input" == "3" ]; then
+sudo nano Minecraft/runMC1_12_2_OptifineF4.sh
+fi
+if [ "$input" == "s" ]; then
+echo You best not ruin it!
+read -rsn2 input
+if [ "$input" == "ok" ]; then
+clear
+echo ACCESS GRANTED
+echo "<     >"
+sleep 3
+clear
+echo ACCESS GRANTED
+echo "<===  >"
+sleep 1
+clear
+echo ACCESS GRANTED
+echo "<=====>"
+sleep 2
+clear
+sudo nano /usr/bin/OpenMinecraft
+fi
+fi
+if [ "$input" == "4" ]; then
+clear
+echo Minecraft By Mojang
+echo Run Script by Paul Lamb
+echo www.paulscode.com
+echo Launcher By Sam Smith
+fi
+# Hey gamer

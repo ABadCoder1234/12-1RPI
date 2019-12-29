@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 cd
-figlet Minecraft Pro || clear && echo "Minecraft Pro Launcher (Download figlet with sudo apt-get install figlet)"
+figlet Minecraft Pro || clear && echo "Minecraft Pro Launcher (Download figlet with sudo apt-get install figlet for a better title)"
 echo 1. Launch
 echo 2. Launch Options -Debug-
 echo 3. Advanced Settings -Login-

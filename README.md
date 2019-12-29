@@ -1,6 +1,6 @@
 # 12-1RPI
 My ACTUALLY WORKING easy install. Completely new, even with a nice new launcher!
-If you want a remote chance at reading this, view it in raw view
+If you are on website view this in raw mode for easy viewing
 Despite the name 12-1RPI, this actually downloads 1.12.2 (Not 1.12.1, as the previous failing installer did)
 I used an online tutorial, and changed lots of code, and made it even easier to install
 This is easy to set up on a raspberry pi 4 but on the raspberry pi 3 you need to do a few steps.

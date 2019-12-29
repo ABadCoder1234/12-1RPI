@@ -10,7 +10,7 @@ read -rsn1 input
 if [ "$input" == "y" ]; then
 sudo apt-get -y install figlet
 OpenMinecraft
-else
+fi
 fi
 clear
 echo 1. Launch
@@ -72,6 +72,5 @@ sudo chmod +x 12-1RPI/OpenMinecraft
 sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
 sudo chmod +x /usr/bin/OpenMinecraft
 echo Finished
-fi
 fi
 # Hey gamer

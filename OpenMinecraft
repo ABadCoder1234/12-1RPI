@@ -71,13 +71,7 @@ OpenMinecraft
 fi
 if [ "$input" == "5" ]; then
 clear
-cd 
-sudo mkdir Minecraft && sudo rm -rf Minecraft && echo No problems involving Minecraft folder detected
-sudu mkdir Minecraft || A=1
-clear
-if [ "$A" == "1" ]; then
-echo Error detected: Minecraft folder exists
-echo Dont worry! I can fix the issue!
+echo If installation fails, you there may already be a Minecraft Folder. You can delete or rename it easily here.
 echo Press 'd' to delete the folder
 echo Press 'r' rename the folder
 echo "Press any other key to do no action"
@@ -90,7 +84,6 @@ cd
 mv Minecraft minecraft-folder && echo Safely Resolved Issue
 else
 echo No action performed
-fi
 fi
 fi
 OpenMinecraft

@@ -80,14 +80,17 @@ echo Error detected: Minecraft folder exists
 echo Dont worry! I can fix the issue!
 echo Press 'd' to delete the folder
 echo Press 'r' rename the folder
-echo An invalid key will rename the folder to minecraft-folder
+echo "Press any other key to do no action"
 read -rsn1 input
 if [ "$input" == "d" ]; then
 cd
 sudo rm -rf Minecraft && echo Succesfully Removed
-else
+if [ "$input" == "r" ]; then
 cd
 mv Minecraft minecraft-folder && echo Safely Resolved Issue
+else
+echo No action performed
+fi
 fi
 fi
 OpenMinecraft

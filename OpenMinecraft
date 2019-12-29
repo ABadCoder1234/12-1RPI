@@ -57,6 +57,7 @@ echo "<=====>"
 sleep 2
 clear
 sudo nano /usr/bin/OpenMinecraft
+OpenMinecraft
 fi
 fi
 if [ "$input" == "4" ]; then
@@ -89,6 +90,7 @@ cd
 mv Minecraft minecraft-folder && echo Safely Resolved Issue
 fi
 fi
+OpenMinecraft
 fi
 if [ "$input" == "6" ]; then
 cd
@@ -98,6 +100,7 @@ sudo chmod +x 12-1RPI/OpenMinecraft
 sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
 sudo chmod +x /usr/bin/OpenMinecraft
 echo Finished
+OpenMinecraft
 fi
 # Hey gamer
 if [ "$input" == "c" ]; then

@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 cd
-figlet Minecraft Pro 
+figlet Minecraft
 if [ "$?" == "127" ]; then
 clear 
 echo Figlet not detected 
@@ -13,13 +13,14 @@ OpenMinecraft
 fi
 fi
 clear
-figlet Minecraft Pro
+figlet Minecraft
 echo 1. Launch
 echo 2. Launch Options -Debug-
 echo 3. Advanced Settings -Login-
-echo 4. Credits
-echo 5. Installation troubleshoot
-echo 6. Update Launcher
+echo 4. Installation Troubleshooting
+echo 5. Update Launcher
+echo 6. Credits
+echo 7. About
 echo "(C)lose"
 read -rsn1 input
 if [ "$input" == "1" ]; then
@@ -60,7 +61,7 @@ sudo nano /usr/bin/OpenMinecraft
 OpenMinecraft
 fi
 fi
-if [ "$input" == "4" ]; then
+if [ "$input" == "6" ]; then
 clear
 echo Minecraft By Mojang
 echo Run Script by Paul Lamb
@@ -69,7 +70,7 @@ echo Launcher By Sam Smith
 read -rsn1 input
 OpenMinecraft
 fi
-if [ "$input" == "5" ]; then
+if [ "$input" == "4" ]; then
 clear
 echo If installation fails, you there may already be a Minecraft Folder. You can delete or rename it easily here.
 echo Press 'd' to delete the folder
@@ -88,7 +89,7 @@ fi
 fi
 OpenMinecraft
 fi
-if [ "$input" == "6" ]; then
+if [ "$input" == "5" ]; then
 cd
 sudo rm -rf 12-1RPI
 git clone https://github.com/ABadCoder1234/12-1RPI
@@ -98,7 +99,19 @@ sudo chmod +x /usr/bin/OpenMinecraft
 echo Finished
 OpenMinecraft
 fi
-# Hey gamer
+if [ "$input" == "7" ]; then
+clear
+figlet About
+if [ "$?" == "127" ]; then
+clear
+echo About
+fi
+echo "Minecraft version: 1.12.2"
+echo "Optifine version: 1.12.2 F4 Ultra"
+echo "Launcher Version: 1.1"
+echo Press any key to continue
+read -rsn1 input
+fi
 if [ "$input" == "c" ]; then
 clear
 echo  

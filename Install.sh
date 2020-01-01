@@ -12,7 +12,7 @@ read -rsn1 input
 echo Downloading java and installing run script
 echo "Press any key to continue. If you already did this, press (S) to skip"
 read -rsn1 input
-if [ "input" == "s" ]; then
+if [ "$input" == "s" ]; then
 echo skipped
 else
 mkdir ~/Minecraft  && sudo cp 12-1RPI/setupMC1.sh Minecraft/setupMC1.sh && sudo chmod +x Minecraft/setupMC1.sh && Minecraft/setupMC1.sh

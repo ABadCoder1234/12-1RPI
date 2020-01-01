@@ -21,6 +21,7 @@ echo 4. Installation Troubleshooting
 echo 5. Update Launcher
 echo 6. Credits
 echo 7. About
+echo "(R)einstall"
 echo "(C)lose"
 read -rsn1 input
 if [ "$input" == "1" ]; then
@@ -116,4 +117,18 @@ if [ "$input" == "c" ]; then
 clear
 echo  
 clear
+fi
+if [ "$input" == "r" ]; then
+cd
+echo "This will reset settings and login, worlds will be kept."
+echo "Continue? [y,n]"
+if [ "$input" == "y" ]; then
+echo Reinstalling
+sudo rm -rf 12-1RPI
+git clone https://github.com/ABadCoder1234/12-1RPI
+sudo chmod +x 12-1RPI/Install.sh
+12-1RPI/Install.sh
+else
+echo Aborted
+fi
 fi

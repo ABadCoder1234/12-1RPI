@@ -122,6 +122,7 @@ if [ "$input" == "r" ]; then
 cd
 echo "This will reset settings and login, worlds will be kept."
 echo "Continue? [y,n]"
+read -rsn1 input
 if [ "$input" == "y" ]; then
 echo Reinstalling
 sudo rm -rf 12-1RPI

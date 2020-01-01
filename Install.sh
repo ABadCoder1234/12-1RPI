@@ -43,7 +43,7 @@ read -rsn1 input
 cd
 cd Minecraft
 sudo nano runMC1_12_2_OptifineF4.sh
-echo "Now installing the Minecraft Pro launcher"
+echo "Now installing the Minecraft launcher"
 echo "This will take a second"
 echo "Press any key to continue"
 read -rsn1 input
@@ -58,8 +58,10 @@ cd
 sudo chmod +x 12-1RPI/OpenMinecraft
 sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
 sudo chmod +x /usr/bin/OpenMinecraft
-echo Done
+echo Launcher installation finished
+echo Now installing menu entry. (New)
+sudo cp 12-1RPI/Minecraft.png Minecraft/MenuIcon.png
+sudo mv 12-1RPI/Desktopapp /usr/share/applications/Minecraft.desktop
 sleep 1
 echo Run command OpenMinecraft to play the wonderful game pro gamers know as, Minecraft
-
-
+echo Or find it in the Menu!

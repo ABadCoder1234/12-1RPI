@@ -59,7 +59,7 @@ sudo chmod +x 12-1RPI/OpenMinecraft
 sudo mv 12-1RPI/OpenMinecraft /usr/bin/OpenMinecraft
 sudo chmod +x /usr/bin/OpenMinecraft
 echo Launcher installation finished
-echo Now installing menu entry. (New)
+echo "Now installing menu entry. (New)"
 sudo cp 12-1RPI/Minecraft.png Minecraft/MenuIcon.png
 sudo mv 12-1RPI/Desktopapp /usr/share/applications/Minecraft.desktop
 sleep 1

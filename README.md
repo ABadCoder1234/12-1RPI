@@ -1,4 +1,5 @@
 # 12-1RPI
+YOU NEED AN ACCOUNT, THIS IS NOT A WAY OF PIRATING MINECRAFT!
 My ACTUALLY WORKING easy install. Completely new, even with a nice new launcher!
 If you are on website view this in raw mode for easy viewing
 Despite the name 12-1RPI, this actually downloads 1.12.2 (Not 1.12.1, as the previous failing installer did)

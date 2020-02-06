@@ -66,3 +66,5 @@ Recommended:
 Fan
 Heatsinks
 Overclock (See my repository: .overclocksimple)
+------------------
+May not work on all systems, depending on the operating system. Use linux rasbian for best results

@@ -1,4 +1,10 @@
 # 12-1RPI
+<h1>UPDATE: EVERYTHING BROKE<\h1>
+<br>
+
+
+
+
 YOU NEED AN ACCOUNT, THIS IS NOT A WAY OF PIRATING MINECRAFT!
 My ACTUALLY WORKING easy install. Completely new, even with a nice new launcher!
 If you are on website view this in raw mode for easy viewing
